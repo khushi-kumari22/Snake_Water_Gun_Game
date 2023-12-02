@@ -9,5 +9,5 @@ It is a simple and easy game in which the game ask to user to enter S, W or G wh
   'SW': 'Snake drank the water, you won the game',
   'SS': 'Game drawn',
   'WW': 'Game drawn',
-  'GG': 'Game drawn'
+  'GG': 'Game drawn'  
   
