@@ -6,6 +6,9 @@ console.log("'S' for Snake")
 console.log("'W' for Water")
 console.log("'G' for Gun")
 
+let repeat;
+do {
+
 let user = prompt("Enter S, W or G")
 let computer = Math.floor(Math.random() * 3)
 computer = ["S", "W", "G"][computer]
@@ -37,7 +40,12 @@ const match = (computer, user) => {
   }
 }
 
+
   let result = match(computer, user)
 
   console.log(`Computer: ${computer} User: ${user} ${result.toUpperCase()}`)
   alert("Thanks for playing the game! Have a great day!");
+
+  match();
+  repeat = confirm("Do you want to play again?");
+} while (repeat); 
